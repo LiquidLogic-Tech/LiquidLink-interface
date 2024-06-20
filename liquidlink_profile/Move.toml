@@ -1,0 +1,10 @@
+[package]
+name = "liquidlink_profile"
+version = "0.0.1"
+published-at = "0x4e2577e500fc78bf991bb24dadfe889c8a58e79de0afd01e68bcd2f412f6facd"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+liquidlink_profile = "0x4e2577e500fc78bf991bb24dadfe889c8a58e79de0afd01e68bcd2f412f6facd"

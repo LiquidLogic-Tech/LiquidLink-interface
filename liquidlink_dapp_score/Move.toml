@@ -1,0 +1,10 @@
+[package]
+name = "liquidlink_dapp_score"
+version = "1"
+published-at = "0x3721da809d0dc38ab1b0a8fd2fe919931d04d6332e72ab609b2936bf0bcde514"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+
+[addresses]
+liquidlink_dapp_score = "0x3721da809d0dc38ab1b0a8fd2fe919931d04d6332e72ab609b2936bf0bcde514"
